@@ -2,23 +2,25 @@
 # Infrastructure as Code (IaC) Documentation
 
 ## Table of Contents
-1. [Introduction to Infrastructure as Code (IaC)](#introduction-to-infrastructure-as-code-iac)
-2. [Why Use IaC?](#why-use-iac)
-3. [Tools for IaC](#tools-for-iac)
-4. [Configuration Management with Ansible](#configuration-management-with-ansible)
-5. [Why Use Ansible?](#why-use-ansible)
-6. [Creating an Ansible Control Machine in AWS](#creating-an-ansible-control-machine-in-aws)
-   - 6.1. [Launching an EC2 Instance for Ansible Control Machine](#launching-an-ec2-instance-for-ansible-control-machine)
-   - 6.2. [Adding SSH Key Pair to the Control Machine](#adding-ssh-key-pair-to-the-control-machine)
-   - 6.3. [Preparing the Ansible Control Machine](#preparing-the-ansible-control-machine)
-   - 6.4. [Installing Ansible](#installing-ansible)
-7. [Ping Ansible Agents](#ping-ansible-agents)
-   - 7.1. [Preparing the Ansible Agents](#preparing-the-ansible-agents)
-   - 7.2. [Pinging Ansible Agents](#pinging-ansible-agents)
+- [Infrastructure as Code (IaC) Documentation](#infrastructure-as-code-iac-documentation)
+  - [Table of Contents](#table-of-contents)
+  - [1. Introduction to Infrastructure as Code (IaC)](#1-introduction-to-infrastructure-as-code-iac)
+  - [2. Why Use IaC?](#2-why-use-iac)
+  - [3. Tools for IaC](#3-tools-for-iac)
+  - [4. Configuration Management with Ansible](#4-configuration-management-with-ansible)
+  - [5. Why Use Ansible?](#5-why-use-ansible)
+  - [6. Creating an Ansible Control Machine in AWS](#6-creating-an-ansible-control-machine-in-aws)
+    - [6.1. Launching an EC2 Instance for Ansible Control Machine](#61-launching-an-ec2-instance-for-ansible-control-machine)
+    - [6.2. Adding SSH Key Pair to the Control Machine](#62-adding-ssh-key-pair-to-the-control-machine)
+    - [6.3. Preparing the Ansible Control Machine](#63-preparing-the-ansible-control-machine)
+    - [6.4. Installing Ansible](#64-installing-ansible)
+  - [7. Ping Ansible Agents](#7-ping-ansible-agents)
+    - [7.1. Preparing the Ansible Agents](#71-preparing-the-ansible-agents)
+  - [7.2. Pinging Ansible Agents](#72-pinging-ansible-agents)
 
 ## 1. Introduction to Infrastructure as Code (IaC)
 
-Infrastructure as Code (IaC) is a software engineering approach that involves managing and provisioning infrastructure through machine-readable definition files rather than manual processes. It allows developers and system administrators to manage infrastructure using version-controlled, repeatable, and consistent code. IaC treats infrastructure as software, enabling teams to manage, configure, and deploy resources more efficiently.
+Infrastructure as Code (IaC) is a software engineering approach that involves managing and provisioning infrastructure through machine-readable definition files rather than manual processes. It allows developers and system administrators to manage infrastructure using version-controlled, repeatable, and consistent code. IaC treats infrastructure as software, enabling teams to manage, configure, and deploy resources more efficiently. test
 
 ## 2. Why Use IaC?
 
