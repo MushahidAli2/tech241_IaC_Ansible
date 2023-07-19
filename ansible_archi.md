@@ -10,6 +10,8 @@ This repository provides instructions and scripts to set up an Ansible architect
    - Ensure SSH security group rules are set
    - Use Ubuntu 18.04 as the operating system since it comes with preinstalled Python, which is the only dependency required for Ansible.
 
+
+![3vms for ansible.png](images%2F3vms%20for%20ansible.png)
 ## Step 2: Installing Ansible on the Controller Node
 
 1. SSH into the Ansible controller node.
