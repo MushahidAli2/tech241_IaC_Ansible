@@ -39,27 +39,6 @@ This repository provides instructions and scripts to set up an Ansible architect
   sudo apt upgrade -y
   ```
   
-- Go to default directory for ansible to configure hosts file that wil allow connection between controller and agents
-```
-cd /etc/ansible/
-
-sudo nano hosts
-```
-- In the file add app and db VMs
-
-# Ex 2: A collection of hosts belonging to the 'webservers' group
-```
-[web]
-web-instance ansible_host=79.125.56.86 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/tech241.pem
-[db]
-db-instance ansible_host=54.229.227.188 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/tech241.pem
-```
-- Test the connection between controller and agents.
-```
-sudo ansible web -m ping
-sudo ansible db -m ping
-```
-
 ## Step 5: Configuring the Hosts File
 
    1.  Navigate to the default Ansible directory:
@@ -76,6 +55,11 @@ sudo ansible db -m ping
    web-instance ansible_host=79.125.56.86 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/tech241.pem
    [db]
    db-instance ansible_host=54.229.227.188 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/tech241.pem
+   ```
+   4. - Test the connection between controller and agents.
+   ```
+   sudo ansible web -m ping
+   sudo ansible db -m ping
    ```
 ## Step 6: Testing the Connection
 
