@@ -35,7 +35,7 @@ Terraform's unique selling point is its cloud-agnostic approach to infrastructur
 
 1. **Download Terraform:** Go to the official Terraform website: [Terraform Downloads](https://www.terraform.io/downloads.html). Download the Windows 64-bit version of Terraform (usually a zip archive).
 
-2. **Extract the Archive:** Once the download is complete, locate the downloaded zip archive. Right-click on the zip file and select "Extract All..." to extract its contents to a folder of your choice. You can use the built-in Windows extraction tool or a third-party file archiver like 7-Zip.
+2. **Extract the Archive:** Once the download is complete, locate the downloaded zip archive. Right-click on the zip file and select "Extract All..." to extract its contents to a folder of your choice.
 
 3. **Add Terraform to System Path:** To use Terraform from any directory on the command prompt, you need to add the folder containing the Terraform executable to your system's PATH environment variable. Here's how you can do it:
    - Open the Start menu and search for "Environment Variables."
