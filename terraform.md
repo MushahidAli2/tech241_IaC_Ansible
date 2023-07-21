@@ -6,17 +6,17 @@ Terraform is an open-source Infrastructure as Code (IaC) tool developed by Hashi
 
 ## Why use Terraform and its Benefits
 
-**Infrastructure as Code (IaC):** Terraform's core benefit lies in its ability to treat infrastructure as code. Infrastructure is defined using human-readable configuration files, which makes it versionable, maintainable, and allows for collaboration across teams. This approach brings consistency and repeatability to infrastructure provisioning and management.
+1. **Infrastructure as Code (IaC):** Terraform's core benefit lies in its ability to treat infrastructure as code. Infrastructure is defined using human-readable configuration files, which makes it versionable, maintainable, and allows for collaboration across teams. This approach brings consistency and repeatability to infrastructure provisioning and management.
 
-**Multi-Cloud and Multi-Provider Support:** Terraform supports various cloud providers (e.g., AWS, Azure, Google Cloud Platform) and on-premises infrastructure. This flexibility allows users to manage resources across multiple cloud providers and maintain a consistent deployment workflow, regardless of the underlying infrastructure.
+2. **Multi-Cloud and Multi-Provider Support:** Terraform supports various cloud providers (e.g., AWS, Azure, Google Cloud Platform) and on-premises infrastructure. This flexibility allows users to manage resources across multiple cloud providers and maintain a consistent deployment workflow, regardless of the underlying infrastructure.
 
-**Declarative Configuration:** Terraform uses a declarative approach, meaning you define the desired state of your infrastructure rather than writing procedural scripts. This makes it easier to understand, manage, and modify infrastructure configurations.
+3. **Declarative Configuration:** Terraform uses a declarative approach, meaning you define the desired state of your infrastructure rather than writing procedural scripts. This makes it easier to understand, manage, and modify infrastructure configurations.
 
-**Dependency Management and Resource Graph:** Terraform automatically handles resource dependencies and creates a dependency graph. It ensures resources are provisioned in the correct order, reducing the risk of errors and ensuring the infrastructure is created efficiently.
+4. **Dependency Management and Resource Graph:** Terraform automatically handles resource dependencies and creates a dependency graph. It ensures resources are provisioned in the correct order, reducing the risk of errors and ensuring the infrastructure is created efficiently.
 
-**Change Management and Planning:** Terraform provides a preview of the changes it will apply before executing them. This allows users to review and validate proposed changes, reducing the likelihood of unexpected disruptions in the infrastructure.
+5. **Change Management and Planning:** Terraform provides a preview of the changes it will apply before executing them. This allows users to review and validate proposed changes, reducing the likelihood of unexpected disruptions in the infrastructure.
 
-**State Management:** Terraform keeps track of the state of the managed infrastructure in a state file. This state file is essential for tracking changes and performing updates or modifications to the infrastructure.
+6. **State Management:** Terraform keeps track of the state of the managed infrastructure in a state file. This state file is essential for tracking changes and performing updates or modifications to the infrastructure.
 
 ## Who Uses Terraform
 
