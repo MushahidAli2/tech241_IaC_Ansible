@@ -46,4 +46,5 @@ Terraform's unique selling point is its cloud-agnostic approach to infrastructur
 
 4. **Verify Installation:** Open a new Command Prompt (or PowerShell) window. Type `terraform --version` and press Enter. If Terraform is correctly installed and added to the system PATH, it will display the version information.
 
-*Note: Always remember to store sensitive information, such as API keys and access credentials, securely and avoid committing them to version control systems.*
+
+![terraform--version.png](images%2Fterraform--version.png)
