@@ -93,3 +93,40 @@ View the content of the "main.tf" file using the command: `cat main.tf`.
 - After successful destruction, Terraform will update the state file to reflect the changes.
 
 **Note:** Be cautious while using `terraform destroy`, as it will delete the resources you created. Ensure that you have the correct configuration and that you have confirmed the destruction plan before proceeding.
+
+
+# Creating a Virtual Private Cloud (VPC) with Terraform on AWS
+
+In this guide, we will walk you through the process of creating a Virtual Private Cloud (VPC) using Terraform on Amazon Web Services (AWS). We will explain the concept of CIDR blocks and provide a simple diagram to help you understand how VPCs work.
+
+## Prerequisites
+
+Before you begin, make sure you have the following:
+
+- An AWS account with appropriate permissions to create VPC resources.
+- Terraform installed on your local machine. You can download it from the official website: [Terraform Downloads](https://www.terraform.io/downloads.html).
+- AWS CLI installed and configured with your AWS credentials.
+
+## Understanding CIDR Blocks
+
+CIDR (Classless Inter-Domain Routing) is a notation used to specify IP address ranges. CIDR blocks are used to define the IP address range for a VPC and its subnets. The CIDR block format is represented as `x.x.x.x/y`, where `x.x.x.x` is the IP address, and `y` is the prefix length. The prefix length indicates the number of bits in the IP address that are used for network identification.
+
+For example, a CIDR block of `10.0.0.0/16` means that the VPC will have a range of IP addresses from `10.0.0.0` to `10.0.255.255`, and the first 16 bits (in this case, the first two octets) are used for network identification, leaving 16 bits for host addresses.
+
+## Creating the VPC using Terraform
+
+### Step 1: Initialize Terraform
+
+Create a new directory for your Terraform configuration and create a file named `main.tf` inside it.
+
+```hcl
+# main.tf
+provider "aws" {
+  region = "us-east-1"  # Replace with your desired AWS region
+}
+```
+Open your terminal, navigate to the directory containing the main.tf file, and run the following command to initialize Terraform:
+
+```bash
+terraform init
+```
